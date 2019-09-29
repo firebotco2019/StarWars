@@ -1,0 +1,26 @@
+<nav aria-label="Page navigation example">
+    <ul class="pagination pagination-lg">
+        <li class="page-item disabled"><a class="page-link" href="#"> Total: {{total}} | <strong>{{paginaActual}}</strong> de ... {{paginasFaltantes}}</a></li>
+        <li [className]="anterior < 0    ? 'disabled page-item' : 'page-item'">
+            <a class="page-link" (click)="paginador(anterior)"> <span aria-hidden="true">&laquo; </span></a></li>
+        <li [className]="siguiente < 0    ? 'disabled page-item' : 'page-item'">
+            <a class="page-link" (click)="paginador(siguiente)"><span aria-hidden="true">
+                    &raquo;</span></a></li>
+    </ul>
+
+</nav>
+<div class="row">
+    <div class="col-sm-4 mb-2" *ngFor="let especie of listaEspecies; let i = index;">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Nombre: {{especie.name}}</h4>
+                <h6 class="card-title"><strong>Clasificación:</strong> <i class="fa fa-bug" aria-hidden="true"></i>
+                    {{especie.classification}}</h6>
+                <p class="card-text"><strong>Lenguaje: </strong><i class="fa fa-language" aria-hidden="true"></i>
+                    {{especie.language}}</p>
+                <button (click)="irEspecie(especie)" class="btn btn-primary"><i class="fa fa-search"
+                        aria-hidden="true"></i> Ver</button>
+            </div>
+        </div>
+    </div>
+</div>

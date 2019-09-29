@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+
+    <div class="col-sm-4 text-center">
+        <a class="icono-nav" href="#"><i class="fsz-15em fa fa-space-shuttle"
+                aria-hidden="true"></i> StartWars</a>
+    </div>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#starwars" aria-controls="starwars" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+
+    <div class="collapse navbar-collapse" id="starwars">
+        <ul class="navbar-nav navbar-right  mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" routerLinkActive="active" routerLink="/inicio">Inicio
+                    <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    StarPedia
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                    <a class="nav-link" routerLinkActive="active" routerLink="/especies"><i
+                            class="bg-nav-logo fa fa-bug" aria-hidden="true"></i> Especies</a>
+                    <a class="nav-link" routerLinkActive="active" routerLink="/personas"><i
+                            class="bg-nav-logo fa fa-user-o" aria-hidden="true"></i> Personas</a>
+                    <a class="nav-link" routerLinkActive="active" routerLink="/peliculas"><i
+                            class="bg-nav-logo fa fa-film" aria-hidden="true"></i> Peliculas</a>
+                    <a class="nav-link" routerLinkActive="active" routerLink="/planetas"><i
+                            class="bg-nav-logo fa fa-globe" aria-hidden="true"></i> Planetas</a>
+                    <a class="nav-link" routerLinkActive="active" routerLink="/automoviles"><i
+                            class="bg-nav-logo fa fa-car" aria-hidden="true"></i> Vehiculos</a>
+                    <a class="nav-link" routerLinkActive="active" routerLink="/naves"><i class="bg-nav-logo fa fa-plane"
+                            aria-hidden="true"></i> Naves</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+</nav>

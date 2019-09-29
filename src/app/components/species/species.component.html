@@ -1,0 +1,10 @@
+<div *ngIf="!detalle">
+    <app-search (buscarEmmiter)="loadEspecie($event)"></app-search>
+    <app-list [listaEspecies]="listaEspecies" (especieEmmiter)="recibeEspecie($event)" [total]="total"
+              [siguiente]="siguiente" [anterior]="anterior" [paginasFaltantes]="paginasFaltantes"
+              (paginadorEmmiter)="loadEspecieList($event)"></app-list>
+</div>
+<div *ngIf="detalle">
+    <app-detail [especie]="especie" (detailEmmiter)="recibeVolver($event)"></app-detail>
+</div>
+

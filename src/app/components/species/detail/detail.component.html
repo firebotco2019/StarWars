@@ -1,0 +1,30 @@
+<div class="col-sm-6 mx-auto mt-2">
+    <div class="card border-success mb-3">
+
+        <div class="card-body bg-grey-1">
+            <div class="card-title  text-uppercase bg-grey-6 font-w-600 font-s-1-5em">
+                {{especie.name}}
+            </div>
+            <h5 class="card-text text-uppercase"><strong class="bg-green-subtitle"> Clasificación: <i class="fa fa-bug"
+                        aria-hidden="true"></i></strong>
+                {{especie.classification}}</h5>
+            <p class="card-text">Altura media: {{especie.average_height}}</p>
+            <p class="card-text">Promedio de vida: {{especie.average_lifespan}}</p>
+            <p class="card-text">Designación: {{especie.designation}}</p>
+            <p class="card-text">Color de ojos: {{especie.eye_colors}}</p>
+            <p class="card-text">Color de cabello: {{especie.hair_colors}}</p>
+            <p class="card-text">Procesdencia: {{especie.homeworld}}</p>
+            <p class="card-text">Lenguaje: <i class="fa fa-language" aria-hidden="true"></i> {{especie.language}}</p>
+            <p class="card-text text-muted">Creado: <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                {{especie.created | date }}</p>
+            <p class="card-text text-muted">Editado: <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                {{especie.edited | date }}</p>
+
+        </div>
+        <div class="card-footer bg-transparent border-success">
+            <a (click)="volver()" class="card-link text-success"><i class="fa fa-arrow-circle-left"
+                    aria-hidden="true"></i>
+                Volver</a>
+        </div>
+    </div>
+</div>
