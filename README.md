@@ -1,8 +1,10 @@
 # StarWars
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+Este proyecto está compilado con [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
 
 ## Development server
+
+Primero es necesario compilar los requerimientos de node con el comando: npm i
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
