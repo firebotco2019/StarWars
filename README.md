@@ -30,6 +30,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Integrantes del Proyecto
 
-Mariana Rodriguez
-Alexander Rubio
-John
+Mariana Rodriguez, Alexander Rubio, John
