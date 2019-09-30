@@ -1,4 +1,4 @@
-// Aporte Mariana Rodriguesz Garzon
+// Aporte Mariana Rodriguesz Garzon, Politecnico
 
 import { Component, OnInit } from '@angular/core';
 
