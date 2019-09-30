@@ -1,3 +1,5 @@
+// Aporte Mariana Rodriguesz
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
