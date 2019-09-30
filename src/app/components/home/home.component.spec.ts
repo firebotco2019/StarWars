@@ -1,4 +1,4 @@
-// Aporte Mariana Rodriguez
+// Aporte Mariana Rodriguez Garzon
 
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 

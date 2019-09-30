@@ -1,4 +1,4 @@
-// Aporte Mariana Rodriguesz
+// Aporte Mariana Rodriguesz Garzon
 
 import { Component, OnInit } from '@angular/core';
 
